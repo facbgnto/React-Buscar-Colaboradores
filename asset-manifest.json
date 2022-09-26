@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Marvel-API-React/static/css/main.45c2cdc4.css",
-    "main.js": "/Marvel-API-React/static/js/main.71a6124c.js",
-    "static/media/fondo.jpg": "/Marvel-API-React/static/media/fondo.449ff33ff455ad72572b.jpg",
-    "index.html": "/Marvel-API-React/index.html",
-    "main.45c2cdc4.css.map": "/Marvel-API-React/static/css/main.45c2cdc4.css.map",
-    "main.71a6124c.js.map": "/Marvel-API-React/static/js/main.71a6124c.js.map"
+    "main.css": "/React-Buscar-Colaboradores/static/css/main.eadb5405.css",
+    "main.js": "/React-Buscar-Colaboradores/static/js/main.71a6124c.js",
+    "static/media/fondo.jpg": "/React-Buscar-Colaboradores/static/media/fondo.449ff33ff455ad72572b.jpg",
+    "index.html": "/React-Buscar-Colaboradores/index.html",
+    "main.eadb5405.css.map": "/React-Buscar-Colaboradores/static/css/main.eadb5405.css.map",
+    "main.71a6124c.js.map": "/React-Buscar-Colaboradores/static/js/main.71a6124c.js.map"
   },
   "entrypoints": [
-    "static/css/main.45c2cdc4.css",
+    "static/css/main.eadb5405.css",
     "static/js/main.71a6124c.js"
   ]
 }
