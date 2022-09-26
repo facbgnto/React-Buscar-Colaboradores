@@ -40,7 +40,9 @@ form{
   margin: auto;
 
 }
-
+label{
+  color: azure;
+}
 .table{
 
   width: 70%;
