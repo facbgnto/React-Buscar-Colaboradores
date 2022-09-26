@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
+import { BaseColaboradores } from "./dataBase/database";
+import { useState } from "react";
+import Colaborador from "./Components/Colaborador";
+import BuscarColaborador from "./Components/BuscarColaborador";
+import LoadTabla from "./Components/LoadTabla";
 
 function App() {
+  const [colaboradores, setColaboradores] = useState(BaseColaboradores);
+ 
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BuscarColaborador colaboradores={colaboradores}></BuscarColaborador>
+      <Colaborador  colaboradores={colaboradores} setColaboradores={setColaboradores}></Colaborador>
+
+  
     </div>
   );
 }
