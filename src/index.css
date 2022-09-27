@@ -5,8 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url("/src/assets/img/fondo.jpg");
-  background-size: cover;
+  background-image: url("/src/assets/img/fondo2.jpg");
+  background-size:  auto, contain;
   background-repeat:no-repeat;
   background-position: center center;
 }

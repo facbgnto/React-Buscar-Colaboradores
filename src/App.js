@@ -2,6 +2,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import { useState } from "react";
 import BuscarColaborador from "./Components/BuscarColaborador";
+import Footer from "./Components/Footer";
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
             </nav>
         
           <BuscarColaborador busqueda={busqueda}></BuscarColaborador>
+          <Footer></Footer>
     </div>
   );
 }
